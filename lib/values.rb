@@ -9,8 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.collect do |food, items|
-    binding.pry
-    items.values
-  end
+  groceries.values
+  binding.pry
 end
